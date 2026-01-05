@@ -71,7 +71,7 @@ function Header() {
                   <span>About Us</span>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to='/services'
                   className="flex items-center space-x-2 px-4 py-2 rounded-lg text-gray-700 hover:text-amber-800 hover:bg-amber-100/50 transition-all duration-200 font-medium"
@@ -79,7 +79,7 @@ function Header() {
                   <i className="fas fa-cogs text-sm"></i>
                   <span>Our Services</span>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   to='/contact-us'
@@ -397,14 +397,14 @@ function Header() {
             <i className="fas fa-users text-amber-600 w-5"></i>
             <span>About Us</span>
           </Link>
-          <Link
+          {/* <Link
             to='/services'
             className="flex items-center space-x-3 px-4 py-3 rounded-lg text-gray-700 hover:text-amber-800 hover:bg-amber-100/50 transition-all duration-200 font-medium"
             onClick={() => setIsOpen(false)}
           >
             <i className="fas fa-cogs text-amber-600 w-5"></i>
             <span>Our Services</span>
-          </Link>
+          </Link> */}
           <Link
             to='/contact-us'
             className="flex items-center space-x-3 px-4 py-3 rounded-lg text-gray-700 hover:text-amber-800 hover:bg-amber-100/50 transition-all duration-200 font-medium"
